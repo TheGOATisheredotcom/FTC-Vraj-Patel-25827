@@ -5,10 +5,8 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
 @TeleOp (group = "Starters", name = "AutoStarter")
 public class TeleOpStart extends OpMode {
-    /**
-     * define the motors, servos, sensors and so forth that you will use throughout your OpMode here
-     * remember to import
-     */
+    //define the motors, servos, sensors and so forth that you will use throughout your OpMode here
+    // remember to import
 
     /**
      * this is where you should initialise all of your variables you just defined, this is what runs
@@ -26,10 +24,8 @@ public class TeleOpStart extends OpMode {
     @Override
     public void loop() {
 
-        
+
     }
 
-    /**
-     * this is where you should define helper functions for your main code
-     */
+    // this is where you should define helper functions for your main code
 }

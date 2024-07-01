@@ -3,9 +3,9 @@ This GitHub repository is a fork of FIRST-Tech-Challenge/FtcRobotController, wit
 
 11505 - Flaming Galahs
 
-11506 - 
+11506 - Flaming Tacos
 
-25827 - 
+25827 - Flaming Marshmallos
 
 ## Requirements
 To use this Android Studio project, you will need Android Studio 2021.2 (codename Chipmunk) or later.

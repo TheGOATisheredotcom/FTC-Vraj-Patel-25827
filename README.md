@@ -22,4 +22,6 @@ I've added a few starter files so that you do not need to write as much boilerpl
 
 There is also a Mechanum drive TeleOp example forked from brandon-gong/ftc-mecanum.
 
+I plan on expanding this repo to contain more examples and explanations so keep and eye out for those.
+
 ### Enjoy!

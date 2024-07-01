@@ -62,11 +62,12 @@ public class ExampleUtility {
     /**
      * these functions can be accessed without creating an instance of the ExampleUtility class e.g.
      *      ExampleUtility.isThing(num)
-     * this is thanks to the public and static access specifiers
+     * this is thanks to the static access specifier (you cannot create private static methods)
      * note that functions that are static CANNOT use non-static member variables
      */
     public static boolean isThing(String string) {return true;}
     public static boolean isOtherThing(int i) {return true;}
+
 
     /**
      * these functions need to be used on an instantiated member of the class, but can be used in

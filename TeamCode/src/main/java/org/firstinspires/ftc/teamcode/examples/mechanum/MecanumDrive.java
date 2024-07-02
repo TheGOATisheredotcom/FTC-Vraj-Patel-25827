@@ -1,4 +1,4 @@
-package org.firstinspires.ftc.teamcode.Examples.mecanum;
+package org.firstinspires.ftc.teamcode.examples.mechanum;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
@@ -81,8 +81,8 @@ public class MecanumDrive extends OpMode {
         // Loop through all values in the speeds[] array and find the greatest
         // *magnitude*.  Not the greatest velocity.
         double max = Math.abs(speeds[0]);
-        for(int i = 0; i < speeds.length; i++) {
-            if ( max < Math.abs(speeds[i]) ) max = Math.abs(speeds[i]);
+        for(double speed : speeds) {
+            if ( max < Math.abs(speed) ) max = Math.abs(speed);
         }
 
         // If and only if the maximum is outside of the range we want it to be,
